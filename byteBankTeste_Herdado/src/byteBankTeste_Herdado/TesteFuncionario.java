@@ -4,7 +4,8 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 		
-		Funcionario mark = new Funcionario();
+		//existe a classe e o tipo Funcionario, mas nao podemor cria-lo
+		Gerente mark = new Gerente();
 		mark.setNome("Mark Sloan");
 		mark.setCpf("111222333-04");
 		mark.setSalario(2600.00);

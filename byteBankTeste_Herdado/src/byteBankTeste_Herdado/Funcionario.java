@@ -1,17 +1,17 @@
 package byteBankTeste_Herdado;
 
-public class Funcionario {
+// quando criar o abstrato vc nao pode instanciar mais essa classe, mas irar existir a classe e o tipo, ou seja, essa classe é abstrata
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
 	//protected double salario; --- O "protected" está entre o "public" e "private". O protected significa que está publico SÓ para os "filhos" (irão enxergar).
 	private double salario;
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
 	
-	
+	//metodo sem corpo, não há implementação
+	public abstract double getBonificacao();
+		
 	//Métodos
 	public String getNome() {
 		return nome;

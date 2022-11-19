@@ -1,6 +1,8 @@
 package byteBankTeste_Herdado;
 
 public class TesteGerente {
+	
+	
 
 	public static void main(String[] args) {
 		Gerente gerente1 = new Gerente();
@@ -12,8 +14,8 @@ public class TesteGerente {
 		System.out.println("CPF: " + gerente1.getCpf());
 		System.out.println("Salário: " + gerente1.getSalario());
 		
-		gerente1.setSenha(1111);		
-		boolean autenticou = gerente1.autentica(1111);
+		gerente1.setSenha(2222);		
+		boolean autenticou = gerente1.autentica(2222);
 		
 		System.out.println(autenticou);
 		

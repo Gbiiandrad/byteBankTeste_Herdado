@@ -25,8 +25,8 @@ public class TesteReferencia {
 		gerente1.setSalario(5000.0);
 		
 		
-		Funcionario funcionario = new Funcionario();
-		funcionario.setSalario(2000.0);
+//		Funcionario funcionario = new Funcionario();
+//		funcionario.setSalario(2000.0);
 		
 		EditorVideo editorVideo = new EditorVideo();
 		editorVideo.setSalario(2500.0);
@@ -39,7 +39,7 @@ public class TesteReferencia {
 		
 		//registro:
 		controle.registra(gerente1);
-		controle.registra(funcionario);
+//		controle.registra(funcionario);
 		controle.registra(editorVideo);
 		controle.registra(designer);
 		
